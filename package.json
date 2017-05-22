@@ -1,0 +1,32 @@
+{
+  "name": "scheduled-events",
+  "version": "0.0.1",
+  "description": "Easy way to manager timed/scheduled events for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimalsudhan/scheduled-events.git"
+  },
+  "keywords": [
+    "events",
+    "scheduler"
+  ],
+  "author": "Vimal Sudhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vimalsudhan/scheduled-events/issues"
+  },
+  "homepage": "https://github.com/vimalsudhan/scheduled-events#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "dependencies": {
+    "log-with-console": "^1.0.0"
+  }
+}
